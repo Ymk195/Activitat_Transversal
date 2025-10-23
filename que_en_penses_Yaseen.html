@@ -16,24 +16,68 @@
         <fieldset>
           <legend>Informació de contacte</legend>
 
-          <label for="nom">Nom complet</label>
-          <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required>
+            <label for="nom">Nom complet</label>
+          <br>
+              <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required>
+          <br>
+            <label for="correu">Correu electrònic</label>
+          <br>
+              <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required>
+          <br>
+            <label type="tel" for="telefon">Telèfon fent servir l'atribut for al label perquè en clicar se seleccioni l'input</label>
+          <br>
+              <input id="telefon" name="telefon" type="tel" placeholder="123 456 789">
+          <br>
+            <label type="text">Entrada de text desplegable
+          <br>
+                <input name="entrada_desplegable" list="llista-entrades" placeholder="Tria o escriu..." type="text">
+                  <datalist id="llista-entrades">
+                    <option value="Opció 1">
+                    <option value="Opció 2">
+                  </datalist>
+            </label>
+          <br>
+            <label type="tel">Telèfon 2 sense l'atribut for i l'input sent fill del label
+          <br>
+              <input id="telefon2" name="telefon2" type="tel" placeholder="123 456 789">
+            </label>
 
-          <label for="correu">Correu electrònic</label>
-          <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required>
+            <fieldset>
+            <legend>Preferències</legend>
 
-          <label for="telefon">Telèfon fent servir l'atribut for al label perquè en clicar se seleccioni l'input</label>
-          <input id="telefon" name="telefon" type="tel" placeholder="123 456 789">
-        <label>Entrada de text desplegable
-            <input name="entrada_desplegable" list="llista-entrades" placeholder="Tria o escriu...">
-            <datalist id="llista-entrades">
-                <option value="Opció 1">
-                <option value="Opció 2">
-            </datalist>
-        </label>
-          <label>Telèfon 2 sense l'atribut for i l'input sent fill del label
-            <input name="telefon" type="tel" placeholder="123 456 789">
-          </label>
+            <p>Caselles de selecció (Checkbox)</p>
+            <label type="checkbox" for="chk-noticies">
+              <input type="checkbox" id="chk-noticies" name="preferencies[]" value="noticies" checked>
+              Rebre notícies
+            </label>
+            <label type="checkbox" for="chk-ofertes">
+              <input type="checkbox" id="chk-ofertes" name="preferencies[]" value="ofertes">
+              Ofertes i promocions
+            </label>
+            <label type="checkbox" for="chk-actualitzacions">
+              <input type="checkbox" id="chk-actualitzacions" name="preferencies[]" value="actualitzacions">
+              Actualitzacions del producte
+            </label>
+
+            <p>Botons d'opció (Radio buttons)</p>
+            <label type="radio" for="radio-diari">
+              <input type="radio" id="radio-diari" name="freq" value="diari" checked>
+              Diari
+            </label>
+            <label type="radio" for="radio-setmanal">
+              <input type="radio" id="radio-setmanal" name="freq" value="setmanal">
+              Setmanal
+            </label>
+            <label type="radio" for="radio-mensual">
+              <input type="radio" id="radio-mensual" name="freq" value="mensual">
+              Mensual
+            </label>
+
+            <p>Entrada de text llarg</p>
+            <label type="textarea" for="comentaris">Comentaris
+              <textarea id="comentaris" name="comentaris" rows="4" placeholder="Comentari o pregunta..."></textarea>
+            </label>
+            </fieldset>
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
