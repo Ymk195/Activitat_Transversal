@@ -2,39 +2,79 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>jajajajajajajajajaj</title>
+    <title>Creear el compte</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <h1>Título de la página</h1>
+        <h1>Creeu el vostre compte</h1>
     </header>
 
     <main>
-        <p>Aquí va el contenido principal.</p>
+        <p>Creeu el vostre compte per accedir a una experiència personalitzada.</p>
+        <br>
         <form>
         <fieldset>
           <legend>Informació de contacte</legend>
 
-          <label for="nom">Nom complet</label>
-          <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required><br>
-
+<!--Correu-->
           <label for="correu">Correu electrònic</label>
-          <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required><br>
+          <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required><br><br>
 
-          <label for="telefon">Telèfon fent servir l'atribut for al label perquè en clicar se seleccioni l'input</label>
-          <input id="telefon" name="telefon" type="tel" placeholder="123 456 789"><br>
-        <label>Entrada de text desplegable
-            <input name="entrada_desplegable" list="llista-entrades" placeholder="Tria o escriu..."><br>
+
+<!--Radio buttons 3 elements-->
+        Gènere<br>
+        <label><input type="radio" name="genere" value="masculi">Masculí </label>
+        <label><input type="radio" name="genere" value="femeni">Femení </label>
+        <label><input type="radio" name="genere" value="no indicar">Prefereixo no indicar </label>
+        <br><br>
+
+<!--Nom Cognom-->
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required><br><br>
+
+          <label for="nom">Cognom</label>
+          <input id="cognom" name="cognom" type="text" placeholder="Escriu el teu cognom" required><br><br>
+
+<!--Entrada de text desplegable 2 elements-->
+          <label for="data">Data de naixement</label>
+          <input id="data" name="data" type="text" placeholder="Any">
+          <input name="entrada_desplegable" list="llista-entrades" placeholder="Mes">
             <datalist id="llista-entrades">
-                <option value="Opció 1">
-                <option value="Opció 2">
+                <option value="Gener">Gener</option>
+                <option value="Febrer">Febrer</option>
+                <option value="Març">Març</option>
+                <option value="Abril">Abril</option>
+                <option value="Maig">Maig</option>
+                <option value="Juny">Juny</option>
+                <option value="Juliol">Juliol</option>
+                <option value="Agost">Agost</option>
+                <option value="Septembre">Septembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Novembre">Novembre</option>
+                <option value="Desembre">Desembre</option>
             </datalist>
-        </label>
-          <label>Telèfon 2 sense l'atribut for i l'input sent fill del label
-            <input name="telefon" type="tel" placeholder="123 456 789">
-          </label>
+          <input id="data" name="data" type="text" placeholder="Dia">
+          <br><br>
+
+<!--Entrada numerica-->
+        <label for="telefon">Telèfon</label>
+        <input id="telefon" name="telefon" type="tel" placeholder="123 456 789"><br><br>
+
+
+<!--Text llarg-->
+        <textarea name="missatge"></textarea>
+        <br>
+
+<!--Checkbox 3 elements-->
+
+        <label><input type="checkbox" name="politica" value="politica"> Confirmo que he llegit i comprès la política de privadesa i accepto les condicions d'ús. </label><br>
+        <label><input type="checkbox" name="oferta" value="oferta"> M'agradaria rebre novetats, noves activitats, productes exclusius, serveis a mida i tenir una experiència personalitzada basada en els meus interessos. </label><br>
+        <label><input type="checkbox" name="mayor" value="mayor"> Confirmo que tinc almenys 14 anys </label><br>
+        
+<!--Pais-->
         </fieldset>
+<!--Enviar-->
         <button type="submit">Enviar</button>
       </form>
     </main>
