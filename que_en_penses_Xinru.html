@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Documento base</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Título de la página</h1>
+    </header>
+
+    <main>
+        <p>Aquí va el contenido principal.</p>
+        <form>
+        <fieldset>
+          <legend>Informació de contacte</legend>
+
+          <label for="nom">Nom complet</label>
+          <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required>
+
+          <label for="correu">Correu electrònic</label>
+          <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required>
+
+          <label for="telefon">Telèfon fent servir l'atribut for al label perquè en clicar se seleccioni l'input</label>
+          <input id="telefon" name="telefon" type="tel" placeholder="123 456 789">
+        <label>Entrada de text desplegable
+            <input name="entrada_desplegable" list="llista-entrades" placeholder="Tria o escriu...">
+            <datalist id="llista-entrades">
+                <option value="Opció 1">
+                <option value="Opció 2">
+            </datalist>
+        </label>
+          <label>Telèfon 2 sense l'atribut for i l'input sent fill del label
+            <input name="telefon" type="tel" placeholder="123 456 789">
+          </label>
+        </fieldset>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+</body>
+</html>
