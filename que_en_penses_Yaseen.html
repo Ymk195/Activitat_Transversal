@@ -2,84 +2,84 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Documento base</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Formulari base</title>
+    <link rel="stylesheet" href="/Css/estil.css" />
 </head>
 <body>
     <header>
-        <h1>Título de la página</h1>
+        <h1>Formulario de contacto</h1>
     </header>
 
     <main>
-        <p>Aquí va el contenido principal.</p>
-        <form>
+        <p>Rellena los campos a continuación con tu información. Nos pondremos en contacto contigo lo antes posible.</p>
+        <form action="que_penses_enviat_Yaseen.html" method="post">
         <fieldset>
           <legend>Informació de contacte</legend>
 
-            <label for="nom">Nom complet</label>
+            <label for="nom">Nombre completo
           <br>
-              <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required>
+              <input class="titol" name="nom" type="text" placeholder="Escribe tu nombre" required>
+          </label>
           <br>
-            <label for="correu">Correu electrònic</label>
+          <label for="correu">Correo electronico</label>
           <br>
-              <input id="correu" name="correu" type="email" placeholder="nom@exemple.com" required>
+              <input class="titol" name="correu" type="email" placeholder="nombre@ejemplo.com" required>
           <br>
-            <label type="tel" for="telefon">Telèfon fent servir l'atribut for al label perquè en clicar se seleccioni l'input</label>
+            <label type="tel" for="telefon">Telefono</label>
           <br>
-              <input id="telefon" name="telefon" type="tel" placeholder="123 456 789">
+              <input class="titol" name="telefon" type="tel" placeholder="123 456 789" required>
           <br>
-            <label type="text">Entrada de text desplegable
+            <label type="text">Razon de contacto
           <br>
-                <input name="entrada_desplegable" list="llista-entrades" placeholder="Tria o escriu..." type="text">
+                <input id="entrada_desplegable" name="entrada_desplegable" list="llista-entrades" placeholder="Escoje o escribe..." type="text">
                   <datalist id="llista-entrades">
-                    <option value="Opció 1">
-                    <option value="Opció 2">
+                    <option value="Opció 1">Ajuda o asistencia</option>
+                    <option value="Opció 2">Fer alguna consulta</option>
+                    <option value="Opció 2">Feedback</option>
                   </datalist>
             </label>
           <br>
-            <label type="tel">Telèfon 2 sense l'atribut for i l'input sent fill del label
           <br>
-              <input id="telefon2" name="telefon2" type="tel" placeholder="123 456 789">
-            </label>
-
             <fieldset>
-            <legend>Preferències</legend>
-
-            <p>Caselles de selecció (Checkbox)</p>
+            <legend>Preferencias</legend>
+            <p class="titol">Preferencias de Notificaciones</p>
             <label type="checkbox" for="chk-noticies">
               <input type="checkbox" id="chk-noticies" name="preferencies[]" value="noticies" checked>
-              Rebre notícies
+              Recibir notícias
             </label>
+            <br>
             <label type="checkbox" for="chk-ofertes">
               <input type="checkbox" id="chk-ofertes" name="preferencies[]" value="ofertes">
-              Ofertes i promocions
+              Ofertas i promociones
             </label>
+            <br>
             <label type="checkbox" for="chk-actualitzacions">
               <input type="checkbox" id="chk-actualitzacions" name="preferencies[]" value="actualitzacions">
-              Actualitzacions del producte
+              Actualitzaciones del producto
             </label>
 
-            <p>Botons d'opció (Radio buttons)</p>
-            <label type="radio" for="radio-diari">
-              <input type="radio" id="radio-diari" name="freq" value="diari" checked>
-              Diari
+            <p class="titol">Frecuencia de Actualitzaciones</p>
+            <label type="radio" for="radio-diari"> 
+              <input type="radio" id="radio-diari" name="frequencia" value="diari" checked>
+              Diario
             </label>
+            <br>
             <label type="radio" for="radio-setmanal">
-              <input type="radio" id="radio-setmanal" name="freq" value="setmanal">
-              Setmanal
+              <input type="radio" id="radio-setmanal" name="frequencia" value="setmanal">
+              Semanal
             </label>
+            <br>
             <label type="radio" for="radio-mensual">
-              <input type="radio" id="radio-mensual" name="freq" value="mensual">
+              <input type="radio" id="radio-mensual" name="frequencia" value="mensual">
               Mensual
             </label>
-
-            <p>Entrada de text llarg</p>
-            <label type="textarea" for="comentaris">Comentaris
-              <textarea id="comentaris" name="comentaris" rows="4" placeholder="Comentari o pregunta..."></textarea>
+            <p class="titol">Comentarios</p>
+            <label type="textarea" for="comentaris">
+            <textarea id="comentaris" name="comentaris" rows="4" placeholder="Comentari o pregunta..."></textarea>
             </label>
             </fieldset>
         </fieldset>
-        <button type="submit">Enviar</button>
+        <button class="Enviar" type="submit">Enviar</button>
       </form>
     </main>
 </body>
