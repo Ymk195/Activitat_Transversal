@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Formulari base</title>
+  <link rel="stylesheet" href="/Css/cssFormulari.css" />
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+
+        <h1>INICIA SECCIÓ</h1>
+
+        <label for="correu"></label>
+        <br>
+        <input class="titol" name="correu" type="email" placeholder="Correu electrònic" required>
+        <br>
+
+        <label for="contrasenya"></label>
+        <input class="titol" name="correu" type="password" placeholder="Contrasenya" required>
+        <br>
+        
+        <label for="data_naixement"></label>
+          <div>
+            <input id="Any" name="Any" type="text" placeholder="Any">
+
+            <input name="entrada_desplegable" list="llista-entrades" placeholder="Mes">
+                <datalist id="llista-entrades">
+                  <option value="Gener">Gener</option>
+                  <option value="Febrer">Febrer</option>
+                  <option value="Març">Març</option>
+                  <option value="Abril">Abril</option>
+                  <option value="Maig">Maig</option>
+                  <option value="Juny">Juny</option>
+                  <option value="Juliol">Juliol</option>
+                  <option value="Agost">Agost</option>
+                  <option value="Septembre">Septembre</option>
+                  <option value="Octubre">Octubre</option>
+                  <option value="Novembre">Novembre</option>
+                  <option value="Desembre">Desembre</option>
+                </datalist>
+
+            <input id="Dia" name="Dia" type="text" placeholder="Dia">
+          </div>
+
+        <br><br><br>
+        <button class="Enviar" type="submit">ENVIAR</button>
+
+
+      </fieldset>
+    </form>
+    
+
+
+  </main>
+</body>
+
+</html>

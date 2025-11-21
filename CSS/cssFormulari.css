@@ -1,0 +1,50 @@
+h1{text-align: center;
+    font-size: 40px;
+    color:white;
+}
+
+body{}
+
+form{display:block;
+    margin:auto;
+    margin-top: 70px;
+    margin-right:70px;
+    margin-left:70px;
+
+}
+
+
+fieldset{margin: auto;
+        width: 600px;
+        padding:50px;
+        border-radius: 100px;
+        border: 0px;
+        background-color: rgba(30, 29, 47, 0.7);
+
+
+}
+
+
+input{display:block;
+        margin:auto;
+        width:300px; 
+        padding: 20px; 
+        font-size: 18px;
+        border-radius: 100px;
+        border: 0px;
+        ;
+}
+
+div input{width:70px; 
+        padding: 20px; }
+
+button{display:block;
+        margin:auto;
+        width:340px; 
+        padding: 20px;
+        font-size: 18px;
+        color:white;
+        background-color: rgb(165, 165, 216);
+        border-radius: 100px;
+        border: 0px;
+        }
