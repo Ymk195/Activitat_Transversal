@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/Css/cssFormulari.css" />
   <style>
     body {
+            margin: 40px;
             padding-top: 60px; 
             font-family: Arial, sans-serif;
     }
@@ -18,9 +19,15 @@
             width: 100%;
             background: #02264a;
             padding: 20px 12px;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
     }
     .barra .botones {
-            display: left;
+            display:left;
+            margin-top:11px;
+            letter-spacing:2px;
+            word-spacing:19px;
     }
     .barra a {
             position: sticky;
@@ -30,9 +37,13 @@
             padding: 6px 10px;
             margin-right: 6px;
             border-radius: 4px;
-            font-size: 14px;
+            font-size: 16px;
     }
-    .barra .icones{}
+
+    .barra a:hover {
+            background: #3e6893;
+    }
+
   </style>
 </head>
 
@@ -40,12 +51,12 @@
   <header>
     <div class="barra">
       <div class="botones">
+              <a href="index.html">INICI</a>
               <a href="Biografia.html">BIOGRAFIA</a>
               <a href="Galeria.html">GALERIA</a>
               <a href="Peliculas.html">PELICULAS</a>
               <a href="Series.html">SERIES</a>
-              <a href="Sobre_nosaltres.html">SOBRE NOSOALTRES</a>
-              <a href="index.html">HUB</a>
+              <a href="Sobre_nosaltres.html">SOBRE NOSALTRES</a>
       </div>
       <div class="icones">
         <a class="usuari" href="Formulari.html">
