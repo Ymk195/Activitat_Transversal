@@ -3,18 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Activitat Transversal</title>
+    <link rel="stylesheet" href="/Css/index.css" />
     <style>
-        fieldset {
-            border: 2px solid #02264a;
-            padding: 10px;
-            border-radius: 20px;
-            background-color: #def0ff;
-        }
-        body {
-            margin: 40px;
-            padding-top: 60px; 
-            font-family: Arial, sans-serif;
-        }
         .barra {
             
             position: fixed;
@@ -27,8 +17,7 @@
         .barra .botones {
             display: left;
         }
-        .barra a {
-            position: sticky;
+        .barra a.boto {
             text-decoration: none;
             display: inline-block;
             color: #02264a;
@@ -38,17 +27,10 @@
             border-radius: 4px;
             font-size: 14px;
         }
-        
-        .prova{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
 
         .logo{
             position: absolute;
-            top: 21%;  
+            top: 21%; 
             height: 40px;
         }
         .barra a:hover {
@@ -60,14 +42,14 @@
 
     <div class="barra">
         <div class="botones">
-            <a href="Biografia.html">BIOGRAFIA</a>
-            <a href="Galeria.html">GALERIA</a>
-            <a href="Peliculas.html">PELICULAS</a>
-            <a href="Series.html">SERIES</a>
-            <a href="Sobre_nosaltres.html">SOBRE NOSOALTRES</a>
-            <a href="index.html">HUB</a>
-            <a href="Formulari.html">formulario</a>
-            <img class="logo " src="/Imatges/image.png" width="40px" height="40px"></a>
+            <a href="formulari.html"><img class="logo" src="/Imatges/image.png" width="40" height="40" alt="Logo"></a>
+            <a class="boto" href="Biografia.html">BIOGRAFIA</a>
+            <a class="boto" href="Galeria.html">GALERIA</a>
+            <a class="boto" href="Peliculas.html">PELICULAS</a>
+            <a class="boto" href="Series.html">SERIES</a>
+            <a class="boto" href="Sobre_nosaltres.html">SOBRE NOSOALTRES</a>
+            <a class="boto" href="index.html">HUB</a>
+            <a class="boto" href="Formulari.html">formulario</a>
         </div>
     </div>
 
