@@ -1,0 +1,53 @@
+main{
+    margin-top: 65px;
+    color: #02264a;
+}
+
+h2{
+    font-size: 20px;
+    background-color:#02264a;
+    color:white;
+    font-size:20px;
+    padding:15px;
+    margin-left:-40px;
+    margin-right:-40px;
+
+}
+
+.pelis1{
+    text-align: center;
+}
+
+.tendencies ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    padding:0;
+    margin:0;
+}
+
+.tendencies img{
+    width: 200px;
+    height: auto;
+    border-radius:6px;
+
+}
+
+.totes ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    padding:0;
+    margin:0;
+}
+
+.totes img{
+    width: 200px;
+    height: auto;
+    border-radius:6px;
+
+}
+
+.pelis2{
+    text-align: center;
+}
