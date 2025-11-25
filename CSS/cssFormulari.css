@@ -1,21 +1,24 @@
-h1{text-align: center;
-    font-size: 40px;
-    color:white;
-    font-family: sans-serif;
-    font-weight: 900;
+
+h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 900;
 }
 
 
-form{display:block;
-    margin:auto;
-    margin-top: 70px;
-    margin-right:70px;
-    margin-left:70px;
-
+form{
+        display:block;
+        margin:auto;
+        margin-top: 70px;
+        margin-right:70px;
+        margin-left:70px;
 }
 
 
-fieldset{margin: auto;
+fieldset{
+        margin-top:60px;
         width: 600px;
         padding:50px;
         border-radius: 15px;
@@ -24,7 +27,8 @@ fieldset{margin: auto;
 }
 
 
-input{display:block;
+input{
+        display:block;
         margin:auto;
         width:300px; 
         padding: 20px; 
@@ -34,29 +38,35 @@ input{display:block;
         
 }
 
- 
-.data{display:flex;
-        
-}
-
-
-div input{width:100px; 
-        padding: 20px; 
-}
-
-
-button{display:block;
+button{
+        display:block;
         margin:auto;
         width:340px; 
         padding: 20px;
         font-size: 18px;
-        color:white;
+        color:black;
         background-color: rgb(236, 162, 190);
         border-radius: 100px;
-        border: 0px;
+        border: 0px solid;
         }
 
-.portada{width: 30px}
-.apple_pay{background-color: white;
+p {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 600;
 }
+
+.altre_compte{
+        display:block;
+        margin:auto;
+        width:60px;
+        background-color: white;}
+
+.apple{width:50px}
+
+.google{width:50px}
+
+
 
