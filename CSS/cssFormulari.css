@@ -1,4 +1,39 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
         text-align: center;
         font-size: 40px;
@@ -58,15 +93,14 @@ p {
         font-weight: 600;
 }
 
-.altre_compte{
-        display:block;
-        margin:auto;
-        width:60px;
-        background-color: white;}
 
-.apple{width:50px}
-
-.google{width:50px}
-
-
-
+.portada{
+        background-color: red;
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+}
