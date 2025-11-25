@@ -92,15 +92,3 @@ p {
         font-family: sans-serif;
         font-weight: 600;
 }
-
-
-.portada{
-        background-color: red;
-        width: 50vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-}
