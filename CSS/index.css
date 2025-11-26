@@ -1,0 +1,15 @@
+.prova{
+            width: 50%;
+        }
+
+fieldset {
+            border: 2px solid #02264a;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: #def0ff;
+        }
+body {
+            margin: 60px;
+            padding-top: 60px; 
+            font-family: Arial, sans-serif; 
+}
