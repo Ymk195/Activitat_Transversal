@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-    <meta charset="UTF-8">
-    <title>Activitat Transversal</title>
-    <link rel="stylesheet" href="/Css/index.css" />
-    <style>
-        .barra {
+  <meta charset="utf-8" />
+  <title>Formulari base</title>
+  <link rel="stylesheet" href="/Css/index.css" />
+  <style>
+    .barra {
             
             position: fixed;
             top: 0px;
             left: 0px;
             width: 100%;
-            background: #02264a;
+            background: linear-gradient(to bottom, #02264a, #1567b8);
             padding: 20px 12px;
             display:flex;
             flex-direction: row;
             justify-content: center;
-
-        }
-        .barra .botones {
+    }
+    .barra .botones {
             display:left;
             margin-top:11px;
             letter-spacing:2px;
-            word-spacing:10px;
-        }
-        .barra a.boto {
+            word-spacing:19px;
+    }
+    .barra a {
+            position: sticky;
             text-decoration: none;
             display: inline-block;
             color: white;
             padding: 6px 10px;
             margin-right: 6px;
             border-radius: 4px;
-            font-size: 17px;
-        }
+            font-size: 16px;
+    }
 
-        .logo{
-            height: 40px;
-        }
-
-        .barra a:hover {
+    .barra a:hover {
             background: #3e6893;
-        }
-    </style>
+    }
+
+  </style>
 </head>
 <body>
-    <header>
+  <header>
     <div class="barra">
       <div class="botones">
               <a href="index.html">INICI</a>
@@ -56,7 +53,7 @@
       </div>
       <div class="icones">
         <a class="usuari" href="Formulari.html">
-          <img class="logo " src="/Imatges/image.png" width="40px" height="40px"></a>
+          <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
         </a>
       </div>  
     </div>
@@ -64,56 +61,63 @@
 
 
     <main>
-        <fieldset>
-        <h1>Benvingut!</h1>
-        <div style="display: flex; gap: 20px; align-items: flex-start;">
-        <p>
-            Benvingut al nostre petit racó dedicat completament al món del cinema i les sèries. 
-            Aquí no trobaràs crítiques complicades ni paraules massa tècniques: busquem explicar-te 
-            les coses tal com les diríem a un amic, de manera clara, senzilla i sincera. Som un grup 
-            de persones que simplement estimem mirar històries, parlar-ne i descobrir-ne de noves. 
-            Per això hem creat aquest espai: perquè puguis trobar recomanacions ràpides quan no saps 
-            què veure, opinions detallades si vols aprofundir una mica més i un recull de novetats perquè 
-            sempre estiguis al dia del que s’estrena. Tant si ets d’aquells que prefereixen les maratons 
-            de capítols com si ets més de seure tranquil·lament amb una bona pel·lícula, aquí tens un lloc 
-            pensat per a tu. Explora, descobreix i gaudeix del millor del setè art amb nosaltres.
-        </p>
-        <img class="prova" src="Imatges/Placeholder.png" alt="Placeholder" style="max-width: 300px;">
+        <div style="display:flex; gap:20px; align-items:flex-start;">
+            <img class="prova" src="IMG/Index/Placeholder.png" alt="Placeholder">
+            <fieldset style="flex:1;">
+                <h1>Benvingut!</h1>
+                <div>
+                    <p>
+                            Benvingut al nostre petit racó dedicat completament al món del cinema i les sèries. 
+                            Aquí no trobaràs crítiques complicades ni paraules massa tècniques: busquem explicar-te 
+                            les coses tal com les diríem a un amic, de manera clara, senzilla i sincera. Som un grup 
+                            de persones que simplement estimem mirar històries, parlar-ne i descobrir-ne de noves. 
+                            Per això hem creat aquest espai: perquè puguis trobar recomanacions ràpides quan no saps 
+                            què veure, opinions detallades si vols aprofundir una mica més i un recull de novetats perquè 
+                            sempre estiguis al dia del que s’estrena. Tant si ets d’aquells que prefereixen les maratons 
+                            de capítols com si ets més de seure tranquil·lament amb una bona pel·lícula, aquí tens un lloc 
+                            pensat per a tu. Explora, descobreix i gaudeix del millor del setè art amb nosaltres.
+                    </p>
+                </div>
+            </fieldset>
         </div>
-        </fieldset>
 <br>
-        <fieldset>
-        <h1>Peliculas</h1>
-        <div style="display: flex; gap: 20px; align-items: flex-start;">
-            <p>
-                En aquest apartat trobaràs ressenyes completes de pel·lícules de tots els gèneres i èpoques. 
-                Des de estrenes recents que acaben d'arribar a la cartellera fins a clàssics que val la pena
-                revisitar, volem oferir-te una visió clara del que val la pena veure i del que potser és millor 
-                deixar per a un altre moment. Les nostres opinions estan escrites amb total sinceritat: parlem del 
-                que funciona, del que falla, de les escenes que sorprenen i de tot allò que fa que una pel·lícula 
-                sigui única. També hi trobaràs llistes temàtiques, recomanacions segons el teu estat d'ànim, i petites 
-                guies per ajudar-te a descobrir joies amagades que potser mai hauries pensat mirar. Si ets un enamorat 
-                del cinema o simplement vols inspiració per a la nit, aquest és el teu espai.
-            </p>
-            <img class="prova" src="Imatges/Placeholder.png" alt="Placeholder" style="max-width: 300px;">
+        <div style="display:flex; gap:20px; align-items:flex-start;">
+            
+            <fieldset style="flex:1;">
+                <h1>Peliculas!</h1>
+                <div>
+                    <p>
+                            En aquest apartat trobaràs ressenyes completes de pel·lícules de tots els gèneres i èpoques. 
+                            Des de estrenes recents que acaben d'arribar a la cartellera fins a clàssics que val la pena
+                            revisitar, volem oferir-te una visió clara del que val la pena veure i del que potser és millor 
+                            deixar per a un altre moment. Les nostres opinions estan escrites amb total sinceritat: parlem del 
+                            que funciona, del que falla, de les escenes que sorprenen i de tot allò que fa que una pel·lícula 
+                            sigui única. També hi trobaràs llistes temàtiques, recomanacions segons el teu estat d'ànim, i petites 
+                            guies per ajudar-te a descobrir joies amagades que potser mai hauries pensat mirar. Si ets un enamorat 
+                            del cinema o simplement vols inspiració per a la nit, aquest és el teu espai.
+                    </p>
+                </div>
+            </fieldset>
+            <img class="prova" src="IMG/Index/Placeholder.png" alt="Placeholder">
         </div>
-        </fieldset>
 <br>
-        <fieldset>
-        <h1>Series</h1>  
-        <div style="display: flex; gap: 20px; align-items: flex-start;">
-        <p>
-            Si ets dels que disfruten enganxant-se a una bona sèrie, aquí tens un apartat dedicat exclusivament a això. 
-            T’oferim ressenyes de temporades, primeres impressions, valoracions sense spoilers i també opinions més 
-            completes per si ja has acabat totes les capítols. Parlem de sèries noves, d’aquelles que tothom comenta, i 
-            també de produccions menys conegudes que mereixen molt més reconeixement. Aquí trobaràs recomanacions segons 
-            la durada, l’estil o el tipus d’història que vulguis veure, i et mantenim al dia de les novetats més 
-            interessants. Tant si tens només mitja hora lliure com si busques una història llarga per submergir-t’hi 
-            durant setmanes, aquesta secció està pensada per ajudar-te a trobar la teva pròxima obsessió seriòfila.
-        </p>
-        <img class="prova" src="Imatges/Placeholder.png" alt="Placeholder" style="max-width: 300px;">
-        </div>    
-        </fieldset>
+        <div style="display:flex; gap:20px; align-items:flex-start;">
+            <img class="prova" src="IMG/Index/Placeholder.png" alt="Placeholder">
+            <fieldset style="flex:1;">
+                <h1>Series!</h1>
+                <div>
+                    <p>
+                            Si ets dels que disfruten enganxant-se a una bona sèrie, aquí tens un apartat dedicat exclusivament a això. 
+                            T’oferim ressenyes de temporades, primeres impressions, valoracions sense spoilers i també opinions més 
+                            completes per si ja has acabat totes les capítols. Parlem de sèries noves, d’aquelles que tothom comenta, i 
+                            també de produccions menys conegudes que mereixen molt més reconeixement. Aquí trobaràs recomanacions segons 
+                            la durada, l’estil o el tipus d’història que vulguis veure, i et mantenim al dia de les novetats més 
+                            interessants. Tant si tens només mitja hora lliure com si busques una història llarga per submergir-t’hi 
+                            durant setmanes, aquesta secció està pensada per ajudar-te a trobar la teva pròxima obsessió seriòfila.
+                    </p>
+                </div>
+            </fieldset>
+        </div>
     </main>
 
 </body>
