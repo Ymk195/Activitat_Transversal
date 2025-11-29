@@ -6,39 +6,40 @@
   <title>Formulari base</title>
   <link rel="stylesheet" href="/Css/cssFormulari.css" />
 </head>
-
 <body>
-<div class="background">
-  <header>
-    <a href="index.html" ><img class="back" style="width:50px" src="IMG\Formulari\back.png"></a>
-  </header>
-  <main> 
-    <br><br>
-    <div style="text-align: center;" class="up">
-      <fieldset>
-        <h1>INICIA SECCIÓ</h1>
-            <label for="correu"></label><br>
-              <input class="titol" name="correu" type="email" placeholder="Correu electrònic" required>
-            <br>
 
-            <label for="contrasenya"></label>
-              <input class="titol" name="correu" type="password" placeholder="Contrasenya" required>
-            
-              <br><br><br>
+    <header>
+      <a href="index.html" ><img style="width:50px; text-align: center;" src="IMG\Formulari\back.png"></a>
+    </header>
 
-            <button class="Enviar" type="submit">ENVIAR</button><br>
+    <main><br><br>
+      <div class="up" style="text-align: center;">
+        <fieldset>
+          <h1>INICIA SECCIÓ</h1>
 
-            <p>...o registra't amb...</p><br>
-            
-            <div style="text-align: center;">
-              <a href="https://www.google.com/"><img class="apple" style="width:60px; margin-right: 15px" src="IMG\Formulari\apple.png"></a>
-              <a href="https://www.google.com/"><img class="google" style="width:60px; margin-left: 15px" src="IMG\Formulari\google.png"></a>
+            <div class="total_input">
+              <label for="correu"></label><br>
+                <input class="titol" name="correu" type="email" placeholder="Correu electrònic" required><br>
+
+              <label for="contrasenya"></label>
+                <input class="titol" name="correu" type="password" placeholder="Contrasenya" required>
+              
+            </div><br><br><br>
+
+            <div>
+              <button class="Enviar" type="submit">ENVIAR</button><br>
             </div>
 
-      </fieldset>
-    </div>
-  </main>
-</div>
+              <p>...o registra't amb...</p><br>
+              
+            <div style="text-align: center;">
+                <a href="https://www.google.com/"><img class="apple" style="width:60px; margin-right: 15px" src="IMG\Formulari\apple.png"></a>
+                <a href="https://www.google.com/"><img class="google" style="width:60px; margin-left: 15px" src="IMG\Formulari\google.png"></a>
+            </div>
+
+        </fieldset>
+      </div>
+    </main>
 </body>
 
 </html>
