@@ -1,16 +1,36 @@
-header{text-align: center;}
+.titol{
+        width:300px; 
+        padding: 20px; 
+        font-size: 18px;
+        border-radius: 100px;
+        border: 0px;   
+}
 
+.correu_contrasenya {
+        display:block;
+        margin:auto;
+        width:300px; 
+        padding: 20px; 
+        font-size: 18px;
+        border-radius: 100px;
+        border: 0px;  
+} 
 
+.genere {
+        color:white;
+        font-size:18px;
+}
 
+.data{
+        padding: 20px; 
+        font-size: 18px;
+        border-radius: 100px;
+        border: 0px;  
+}
 
-
-
-
-
-
-
-.background{
-        background-image: url("../IMG\Formulari\background1.jpg");
+.check{
+        color:white;
+        font-size:18px;
 }
 
 h1{
@@ -32,16 +52,7 @@ fieldset{
 }
 
 
-input{
-        display:block;
-        margin:auto;
-        width:300px; 
-        padding: 20px; 
-        font-size: 18px;
-        border-radius: 100px;
-        border: 0px;
-        
-}
+
 
 button{
         display:block;
@@ -69,11 +80,13 @@ p {
 }
 .up{
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         
         
+        
 }
+
