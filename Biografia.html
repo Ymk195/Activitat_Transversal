@@ -5,68 +5,110 @@
   <meta charset="utf-8" />
   <title>Formulari base</title>
   <link rel="stylesheet" href="/Css/cssBiografia.css" />
-  <style>
+ <style>
     body {
             margin: 40px;
             padding-top: 60px; 
             font-family: Arial, sans-serif;
     }
+
+    #logo {
+      margin-right: auto;
+    }
+
     .barra {
-            
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            background: linear-gradient(to bottom, #02264a, #1567b8);
-            padding: 20px 12px;
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        
+        background: linear-gradient(to bottom, #02264a, #1567b8);
+        padding: 20px 12px;
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
     }
     .barra .botones {
-            display:left;
-            margin-top:11px;
-            letter-spacing:2px;
-            word-spacing:19px;
+        display:flex;
+        margin-top:11px;
+        letter-spacing:2px;
+        word-spacing:19px;
     }
     .barra a {
-            position: sticky;
-            text-decoration: none;
-            display: inline-block;
-            color: white;
-            padding: 6px 10px;
-            margin-right: 6px;
-            border-radius: 4px;
-            font-size: 16px;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 6px 10px;
+        margin-right: 6px;
+        border-radius: 4px;
+        font-size: 16px;
     }
 
     .barra a:hover {
-            background: #3e6893;
+        background: #3e6893;
     }
 
-  </style>
-</head>
+    </style>
+  </head>
 
-<body>
-  <header>
+  <body>
+    <header>
     <div class="barra">
+       <img id="logo" src="IMG/barra/image.png" alt="logo" style="width:120px; height:40px;">
       <div class="botones">
-              <a href="index.html">INICI</a>
-              <a href="Biografia.html">BIOGRAFIA</a>
-              <a href="Galeria.html">GALERIA</a>
-              <a href="Peliculas.html">PEL·LÍCULES</a>
-              <a href="Series.html">SÈRIES</a>
-              <a href="nosaltres.html">SOBRE NOSALTRES</a>
+          <a href="index.html">INICI</a>
+          <a href="Biografia.html">BIOGRAFIA</a>
+          <a href="Galeria.html">GALERIA</a>
+          <a href="Peliculas.html">PEL·LÍCULES</a>
+          <a href="Series.html">SÈRIES</a>
+          <a href="nosaltres.html">SOBRE NOSALTRES</a>
       </div>
       <div class="icones">
-        <a class="usuari" href="Formulari.html">
-          <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
-        </a>
+      <a class="usuari" href="Formulari.html">
+        <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
+      </a>
       </div>  
     </div>
-  </header>
+    </header>
   <main>
     <h1>BIOGRAFIA</h1>
-
+    <div style="display: flex; gap: 20px; padding: 0 20px;">
+      <fieldset class="yaseen">
+      <h1>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>
+      </h1>
+      </fieldset>
+      <fieldset class="yaseen">
+      <h1>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>text
+        <br>
+      </h1>
+      </fieldset>
+    </div>
 </body>
 </html>
