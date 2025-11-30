@@ -3,61 +3,50 @@
 <head>
   <meta charset="utf-8" />
   <title>Formulari base</title>
-  <link rel="stylesheet" href="/Css/index.css" />
-  <style>
-    .barra {
-            
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            background: linear-gradient(to bottom, #02264a, #1567b8);
-            padding: 20px 12px;
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-    }
-    .barra .botones {
-            display:left;
-            margin-top:11px;
-            letter-spacing:2px;
-            word-spacing:19px;
-    }
-    .barra a {
-            position: sticky;
-            text-decoration: none;
-            display: inline-block;
+  <link rel="stylesheet" href="/Css/barra.css" />
+ <style>
+.prova{
+            flex:1; 
+            height: 325px;
+            width: 00px; 
+            border-radius: 12px; 
+            border: 4px solid black;
+        }
+
+fieldset {
+            border: 0px;
+            padding: 30px;
+            border-radius: 20px;
+            background: linear-gradient(to top, #02264a, #1567b8);
+        }
+body {
+            margin: 60px;
+            padding-top: 60px; 
+            font-family: Arial, sans-serif;
             color: white;
-            padding: 6px 10px;
-            margin-right: 6px;
-            border-radius: 4px;
-            font-size: 16px;
-    }
+}
+    </style>
+  </head>
 
-    .barra a:hover {
-            background: #3e6893;
-    }
-
-  </style>
-</head>
-<body>
-  <header>
+  <body>
+    <header>
     <div class="barra">
+       <img id="logo" src="IMG/barra/image.png" alt="logo" style="width:120px; height:40px;">
       <div class="botones">
-              <a href="index.html">INICI</a>
-              <a href="Biografia.html">BIOGRAFIA</a>
-              <a href="Galeria.html">GALERIA</a>
-              <a href="Peliculas.html">PEL·LÍCULES</a>
-              <a href="Series.html">SÈRIES</a>
-              <a href="nosaltres.html">SOBRE NOSALTRES</a>
+          <a href="index.html">INICI</a>
+          <a href="Biografia.html">BIOGRAFIA</a>
+          <a href="Galeria.html">GALERIA</a>
+          <a href="Peliculas.html">PEL·LÍCULES</a>
+          <a href="Series.html">SÈRIES</a>
+          <a href="nosaltres.html">SOBRE NOSALTRES</a>
       </div>
       <div class="icones">
-        <a class="usuari" href="Formulari.html">
-          <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
-        </a>
+      <a class="usuari" href="Formulari.html">
+        <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
+      </a>
       </div>  
     </div>
-  </header>
+    </header>
 
 
     <main>

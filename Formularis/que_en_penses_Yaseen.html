@@ -4,19 +4,69 @@
     <meta charset="utf-8" />
     <title>Formulari base</title>
     <link rel="stylesheet" href="/cssFormulari/estil.css" />
+    
+    <style>
+
+      h1{
+        display: block;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #1567b8;
+      }
+
+      #p1 {
+        display: block;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #1567b8;
+      }
+
+      body {
+        margin: 40px;
+        padding-top: 60px; 
+        font-family: Arial, sans-serif;
+        display: flex;
+      }
+
+      fieldset{
+        display: block;
+        width: 600px;
+        padding:50px;
+        border-radius: 15px;
+        border: 0px;
+        background-color:#02264a;
+      }
+
+      input{
+        display:block;
+        margin:auto;
+        width:300px; 
+        padding: 20px; 
+        font-size: 18px;
+        border-radius: 100px;
+        border: 0px;
+      }
+
+      label{
+        display: block  ;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      </style>
 </head>
 <body>
-    <header>
-        <h1>Formulario de contacto</h1>
-    </header>
 
     <main>
-        <p>Rellena los campos a continuación con tu información. Nos pondremos en contacto contigo lo antes posible.</p>
-        <form action="que_penses_enviat_Yaseen.html" method="post">
+        <form class="up" action="que_penses_enviat_Yaseen.html" method="post">
         <fieldset>
-          <legend>Informació de contacte</legend>
-
-            <label for="nom">Nombre completo
+        <header>
+        <h1>Formulari de contacto</h1>
+        </header>
+        <p id="p1">Rellena los campos a continuación con tu información. Nos pondremos en contacto contigo lo antes posible.</p>
+        <label for="nom">Nombre completo
           <br>
               <input class="titol" name="nom" type="text" placeholder="Escribe tu nombre" required>
           </label>
@@ -78,8 +128,8 @@
             <textarea id="comentaris" name="comentaris" rows="4" placeholder="Comentari o pregunta..."></textarea>
             </label>
             </fieldset>
-        </fieldset>
         <button class="Enviar" type="submit">Enviar</button>
+        </fieldset>
       </form>
     </main>
 </body>

@@ -4,67 +4,83 @@
 <head>
   <meta charset="utf-8" />
   <title>Formulari base</title>
-  <link rel="stylesheet" href="/Css/cssSeries.css" />
-  <style>
-    body {
-            margin: 40px;
-            padding-top: 60px; 
-            font-family: Arial, sans-serif;
-    }
-    .barra {
-            
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            background: linear-gradient(to bottom, #02264a, #1567b8);
-            padding: 20px 12px;
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-    }
-    .barra .botones {
-            display:left;
-            margin-top:11px;
-            letter-spacing:2px;
-            word-spacing:19px;
-    }
-    .barra a {
-            position: sticky;
-            text-decoration: none;
-            display: inline-block;
-            color: white;
-            padding: 6px 10px;
-            margin-right: 6px;
-            border-radius: 4px;
-            font-size: 16px;
-    }
+  <link rel="stylesheet" href="/Css/barra.css" />
+   <style>
+main{
+    margin-top: 65px;
+    color: #02264a;
+}
 
-    .barra a:hover {
-            background: #3e6893;
-    }
+h2{
+    font-size: 20px;
+    background-color:#02264a;
+    color:white;
+    font-size:20px;
+    padding:15px;
+    margin-left:-40px;
+    margin-right:-40px;
 
-  </style>
-</head>
+}
 
-<body>
-  <header>
+.serie1{
+    text-align: center;
+}
+
+.tendencies ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    padding:0;
+    margin:0;
+}
+
+.tendencies img{
+    width: 200px;
+    height: auto;
+    border-radius:6px;
+
+}
+
+.totes ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    padding:0;
+    margin:0;
+}
+
+.totes img{
+    width: 200px;
+    height: auto;
+    border-radius:6px;
+
+}
+
+.serie2{
+    text-align: center;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
     <div class="barra">
+       <img id="logo" src="IMG/barra/image.png" alt="logo" style="width:120px; height:40px;">
       <div class="botones">
-              <a href="index.html">INICI</a>
-              <a href="Biografia.html">BIOGRAFIA</a>
-              <a href="Galeria.html">GALERIA</a>
-              <a href="Peliculas.html">PEL·LÍCULES</a>
-              <a href="Series.html">SÈRIES</a>
-              <a href="nosaltres.html">SOBRE NOSALTRES</a>
+          <a href="index.html">INICI</a>
+          <a href="Biografia.html">BIOGRAFIA</a>
+          <a href="Galeria.html">GALERIA</a>
+          <a href="Peliculas.html">PEL·LÍCULES</a>
+          <a href="Series.html">SÈRIES</a>
+          <a href="nosaltres.html">SOBRE NOSALTRES</a>
       </div>
       <div class="icones">
-        <a class="usuari" href="Formulari.html">
-          <img class="logo " src="/IMG/barra/form.png"width="40px" height="40px"></a>
-        </a>
+      <a class="usuari" href="Formulari.html">
+        <img class="logo " src="/IMG/barra/form.png" width="40px" height="40px"></a>
+      </a>
       </div>  
     </div>
-  </header>
+    </header>
   <main>
     <h1>SÈRIES</h1>
     <div class="tendencies">
